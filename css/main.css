@@ -24,13 +24,23 @@ html{
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
+    max-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   .dropdown-content a:link{
-      color: black;
+      color: gray;
       text-decoration: none;
       display:block;
+  }
+  .dropdown-content li > a:hover{
+      color: gray;
+  }
+
+  .dropdown-content li:hover{
+      background-color: #f5f5f5;
+      display: block;
+      color: gray;
   }
   .dropdown-content a{
       color: rgb(54, 50, 50);
@@ -38,6 +48,11 @@ html{
   .dropbtn:hover .dropdown-content{
       display: block;
   }
-
-
+.navbar-header{
+    margin-right: 20%;
+    margin-left: 2%
+}
+.contain{
+    padding-left: 2px;
+}
 
